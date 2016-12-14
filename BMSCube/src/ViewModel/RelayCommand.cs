@@ -7,6 +7,9 @@ using System.Windows.Input;
 
 namespace BMSCube.src.ViewModel
 {
+    /// <summary>
+    /// Handles responses to the user clicking on items in the toolbar menu.
+    /// </summary>
     class RelayCommand : ICommand
     {
         #region Fields

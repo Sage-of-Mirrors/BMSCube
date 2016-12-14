@@ -6,6 +6,11 @@ using System.Windows.Input;
 
 namespace BMSCube.src.ViewModel
 {
+    /// <summary>
+    /// Holds the basic logic for the editor, including implementation of 
+    /// INotifyPropertyChanged (required for WPF functionality) and toolbar
+    /// inputs.
+    /// </summary>
     public class BaseMainWindowViewModel : INotifyPropertyChanged
     {
         #region File Input
@@ -39,6 +44,8 @@ namespace BMSCube.src.ViewModel
         #endregion
 
         #region Rendering
+
+        // OpenTK renderer removed because this editor doesn't need it
 
         #endregion
 
